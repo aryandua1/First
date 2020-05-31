@@ -1,9 +1,9 @@
 /*
-This soln is even more efficient than tabulation as in this we only require one array to solve.
+This soln is even more efficient than tabulation as in this we only require one array to solve the problem.
 In tabulation soln for every dp[i][j] we required dp[i-1][j] and dp[i-1][j-weight[i]]
 So basically we only required the last row to solve this not the whole matrix.
-Moreover we can solve this just by single matrix if we start filling the matrix in decreasing order i.e. from capacity to 0.
-This is possible as the value of dp[j-weight[i]] will be same as it would have been on the privious row.
+Moreover we can solve this just by single array if we start filling the array in decreasing order i.e. from capacity to 0.
+This is possible as the value of dp[j-weight[i]] will be same as it would have been on the previous row.
 */
 
 #include<iostream>
