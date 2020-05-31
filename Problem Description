@@ -1,4 +1,5 @@
-Given two integer arrays to represent Weights and Profits of ‘N’ items, we need to find a subset of these items which will give us maximum profit such that their total weight is not more than a given number ‘Capacity’. Each item can only be selected once.
+Given two integer arrays to represent Weights and Profits of ‘N’ items, we need to find a subset of these items which will give us maximum
+profit such that their total weight is not more than a given number ‘Capacity’. Each item can only be selected once.
 Example:
 Items: {A, B, C, D}
 Weights: {2, 3, 1, 4}
